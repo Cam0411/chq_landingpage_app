@@ -37,7 +37,7 @@ const ContactForm = () => {
           note: formData.message
         }),
       });
-      console.log(response);
+
       
       let result;
       const contentType = response.headers.get("content-type");
